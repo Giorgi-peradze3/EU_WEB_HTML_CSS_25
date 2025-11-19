@@ -1,0 +1,74 @@
+.nav {
+  margin: 100px auto;
+  width: 800px;
+  border: solid 2px black;
+  font-size: 26px;
+}
+.nav ul {
+  list-style: none;
+  width: 200px;
+  #border: solid 1px black;
+  padding: 0;
+  margin: 0px;
+}
+.nav ul {
+  color: green;
+}
+.nav > ul > li > a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  background-color: beige;
+  border-bottom: solid 1px silver;
+  display: block;
+  padding: 5px;
+}
+.nav > ul ul {
+  margin-left: 200px;
+  display: none;
+}
+.nav > ul > li:hover ul {
+  display: block;
+  position: absolute;
+  top: 0;
+}
+.nav > ul > li > a:hover {
+  background-color: lightblue;
+}
+.nav > ul > li {
+  position: relative;
+}
+.nav > ul > li > ul a {
+  color: brown;
+  background-color: cadetblue;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-bottom: solid 1px whitesmoke;
+}
+.nav > a {
+  color: green;
+}
+
+.form {
+  width: 45%;
+  background-color: aqua;
+  border: solid 2px black;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.form input {
+  font-size: 2em;
+  padding: 8px;
+}
+
+.form {
+  font-size: 2em;
+}
+
+.form select, form select option {
+  font-size: 2em;
+  padding: 10px;
+  border-bottom: solid 2px black;
+  color: green;
+}/*# sourceMappingURL=style.css.map */

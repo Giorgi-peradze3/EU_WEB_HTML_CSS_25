@@ -1,0 +1,56 @@
+.container {
+  width: 600px;
+  margin: 50px auto 0px;
+  background-color: lightcyan;
+  border: solid 2px black;
+}
+.container .headline {
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+}
+.container .form {
+  text-align: center;
+}
+.container .form input {
+  margin-top: 35px;
+  padding: 15px;
+}
+.container .form button {
+  margin-top: 35px;
+  padding: 15px;
+  width: 200px;
+  background-color: orangered;
+  color: white;
+  font-size: 1.5em;
+}
+.container .bottom {
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+  font-size: 12px;
+}
+.container .form button:hover {
+  cursor: pointer;
+  background-color: lightpink;
+  color: white;
+}
+
+.container_1 {
+  width: 1200px;
+  margin: 50px auto 0px;
+  background-color: whitesmoke;
+  border: solid 2px black;
+}
+.container_1 .headline_1 {
+  padding: 25px;
+  font-size: 1.5em;
+}
+.container_1 .form_1 {
+  margin: auto 20px;
+  text-align: center;
+}
+.container_1 .form_1 input div {
+  text-align: center;
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */
