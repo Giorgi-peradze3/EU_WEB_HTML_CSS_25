@@ -1,0 +1,229 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+body .container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body .container header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #6d0a0a, #4a0000);
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+body .container header .logo-crescent {
+  font-size: 80px;
+  line-height: 0.5;
+  position: absolute;
+  left: 20px;
+  color: #d8d8d8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transform: rotate(-20deg);
+  top: 10px;
+}
+body .container header .header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+body .container header .header-text .header-text h1 {
+  margin: 0;
+  font-size: 3em;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  color: #f75d5d;
+  letter-spacing: 2px;
+  line-height: 0.8;
+}
+body .container header .header-text .header-text h2 {
+  margin: 0;
+  font-size: 1.8em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-weight: normal;
+  color: #ccc;
+  letter-spacing: 1px;
+}
+body nav.top-nav {
+  background-color: #add8e6;
+  border-bottom: 1px solid #999;
+  height: 40px;
+  display: flex;
+}
+body nav.top-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+body nav.top-nav li {
+  flex-grow: 1;
+  text-align: center;
+}
+body nav.top-nav a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border-right: 1px solid #a0a0a0;
+  box-sizing: border-box;
+}
+body nav.top-nav li:last-child a {
+  border-right: none;
+}
+body nav.top-nav a:hover {
+  background-color: #87ceeb;
+}
+body .content-area {
+  display: flex;
+}
+body .content-area aside.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+  min-height: 400px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+body .content-area aside.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body .content-area aside.sidebar li {
+  border-bottom: 1px solid #ccc;
+}
+body .content-area aside.sidebar a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #333;
+}
+body .content-area aside.sidebar a:hover {
+  background-color: #e0e0e0;
+}
+body .content-area .web-box {
+  background-color: #6d0a0a;
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 0.8;
+  padding: 30px 0;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+body .content-area .web-box span {
+  display: block;
+}
+body .content-area main.article-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+body .content-area main.article-content p {
+  line-height: 1.6;
+  color: #333;
+}
+body footer {
+  background-color: #f0f0f0;
+  color: #666;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  border-top: 1px solid #ccc;
+}
+body footer a {
+  color: #337ab7;
+  text-decoration: none;
+}
+body footer a:hover {
+  text-decoration: underline;
+}
+body form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+body form .form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body form .form-row label {
+  color: blue;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+body form .form-row input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 150px;
+}
+body form .form-row input[type=radio] {
+  margin-right: 5px;
+}
+body form .radio-group {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+body form .radio-group label {
+  color: black;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+body form .select-group {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+body form .select-group select {
+  padding: 5px;
+  margin-right: 10px;
+}
+body form .select-group span {
+  margin-right: 10px;
+}
+body form .checkbox-group {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+body form .checkbox-group legend {
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 10px;
+}
+body form .checkbox-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+body form .checkbox-item label {
+  color: blue;
+  margin-left: 5px;
+}
+body form .submit-area {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+body form .submit-area button {
+  padding: 5px 15px;
+  cursor: pointer;
+}/*# sourceMappingURL=reg.css.map */
